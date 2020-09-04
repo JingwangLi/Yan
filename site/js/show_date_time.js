@@ -1,7 +1,7 @@
 function show_date_time() {
     window.setTimeout("show_date_time()", 1000);
     BirthDay = new Date("3/5/2020 09:22:57");
-    meetDay = new Date("11/2/2020");
+    meetDay = new Date("10/31/2020 12:00:00");
     today = new Date();
     timeold = (today.getTime() - BirthDay.getTime());
     timeold2 = -(today.getTime() - meetDay.getTime());
